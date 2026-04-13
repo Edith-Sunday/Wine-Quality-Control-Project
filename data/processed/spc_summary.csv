@@ -1,0 +1,13 @@
+Wine Type,Parameter,OOC %,Cpk,Cpk Status,OOS %,Verdict
+Red,volatile acidity,0.6,1.0,⚠️ Marginal,0.3,✅ In Control
+White,volatile acidity,1.7,0.81,⚠️ Marginal,0.0,⚠️ Monitor
+Red,pH,0.5,1.096,✅ Capable,0.7,✅ In Control
+White,pH,0.7,0.758,⚠️ Marginal,1.4,⚠️ Monitor
+Red,sulphates,1.7,1.133,✅ Capable,0.5,✅ In Control
+White,sulphates,1.0,0.861,⚠️ Marginal,0.0,⚠️ Monitor
+Red,alcohol,0.5,0.787,⚠️ Marginal,0.1,⚠️ Monitor
+White,alcohol,0.0,0.665,❌ Incapable,0.1,🚨 Out of Control
+Red,free sulfur dioxide,1.4,0.234,❌ Incapable,33.1,🚨 Out of Control
+White,free sulfur dioxide,0.7,0.591,❌ Incapable,10.5,🚨 Out of Control
+Red,chlorides,1.9,1.108,✅ Capable,2.6,⚠️ Monitor
+White,chlorides,2.1,1.112,✅ Capable,0.3,✅ In Control
