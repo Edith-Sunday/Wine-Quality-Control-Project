@@ -950,7 +950,7 @@ with tab4:
             return 'background-color: #d4edda'
         return ''
 
-    styled_summary = summary_df.style.applymap(
+    styled_summary = summary_df.style.map(
         colour_verdict, subset=['Process Status', 'Quality Risk']
     )
     st.dataframe(styled_summary, use_container_width=True) #height=430)
