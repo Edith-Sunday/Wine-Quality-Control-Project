@@ -7,3 +7,4 @@ streamlit
 kaleido
 openpyxl
 jupyter
+statsmodels
