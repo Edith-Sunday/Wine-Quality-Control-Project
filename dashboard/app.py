@@ -711,7 +711,7 @@ with tab3:
     spc_display = spc_summary.copy()
 
     styled_spc = spc_display.style\
-        .applymap(colour_verdict, subset=['Verdict', 'Cpk Status'])\
+        .map(colour_verdict, subset=['Verdict', 'Cpk Status'])\
         .format({'OOC %': '{:.1f}', 'Cpk': '{:.3f}', 'OOS %': '{:.1f}'})
 
     st.dataframe(styled_spc, use_container_width=True, height=430, hide_index=True)
