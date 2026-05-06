@@ -966,7 +966,7 @@ with tab4:
                 return 'background-color: #d4edda'
             return ''
 
-        styled_rca = rca_df.style.applymap(
+        styled_rca = rca_df.style.map(
             colour_rca, subset=['Process Status', 'Quality Risk']
         )
         st.dataframe(styled_rca, use_container_width=True)
