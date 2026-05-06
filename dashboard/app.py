@@ -246,7 +246,7 @@ with tab1:
             return 'background-color: #d4edda'
         return ''
 
-    styled = spc_summary.style.applymap(
+    styled = spc_summary.style.map(
         colour_verdict, subset=['Verdict']
     )
     st.dataframe(styled, use_container_width=True, height=430)
